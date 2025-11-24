@@ -1,0 +1,34 @@
+name: Create a new wpbr-fluentcart-linepay release
+on:
+  release:
+    types: [published]
+jobs:
+  tag:
+    name: New Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Build
+        run: |
+          composer update --no-dev --optimize-autoloader
+          mkdir -p build/wpbr-fluentcart-linepay
+          # First create a list of files to copy, excluding unwanted files and directories
+          rsync -a --exclude=".git" --exclude="node_modules" --exclude=".github" --exclude=".cursor" \
+            --exclude="build" --exclude="grumphp.yml" --exclude="composer.*" \
+            --exclude="phpstan.neon" --exclude=".gitignore" --exclude=".*" \
+            ./ build/wpbr-fluentcart-linepay/
+      - name: Create artifact
+        working-directory: ./build
+        run: |
+          zip -X -r wpbr-fluentcart-linepay-${{ github.event.release.tag_name }}.zip wpbr-fluentcart-linepay
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wpbr-fluentcart-linepay-${{ github.event.release.tag_name }}.zip
+          path: build/wpbr-fluentcart-linepay-${{ github.event.release.tag_name }}.zip
+      - name: Upload to release
+        uses: JasonEtco/upload-to-release@master
+        with:
+          args: build/wpbr-fluentcart-linepay-${{ github.event.release.tag_name }}.zip application/zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

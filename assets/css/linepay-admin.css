@@ -1,0 +1,31 @@
+/**
+ * LINE Pay Admin Styles
+ * Custom styles for LINE Pay gateway settings in FluentCart admin
+ */
+
+/* LINE Pay Settings Notice */
+.wpbr-linepay-notice {
+    padding: 10px;
+    background: #e7f3ff;
+    border-left: 4px solid #2271b1;
+    margin: 10px 0;
+}
+
+/* LINE Pay Logo in Payment Methods */
+.wpbr-linepay-logo {
+    max-width: 120px;
+    height: auto;
+}
+
+/* Success message styling */
+.wpbr-linepay-success {
+    color: #00a32a;
+    font-weight: 500;
+}
+
+/* Error message styling */
+.wpbr-linepay-error {
+    color: #d63638;
+    font-weight: 500;
+}
+

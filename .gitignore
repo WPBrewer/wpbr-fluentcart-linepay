@@ -1,0 +1,8 @@
+ # Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer's vendor directory
+vendor/
+
+composer.lock

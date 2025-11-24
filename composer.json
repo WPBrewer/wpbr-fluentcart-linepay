@@ -1,0 +1,20 @@
+{
+    "name": "wpbrewer/wpbr-fluentcart-linepay",
+    "description": "LINE Pay payment gateway for FluentCart - Taiwan",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "WPBrewer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPBrewer\\FluentCartLinePay\\": "src/"
+        }
+    }
+}
+

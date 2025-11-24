@@ -1,0 +1,156 @@
+# LINE Pay for FluentCart
+# Copyright (C) 2024 WPBrewer
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: LINE Pay for FluentCart 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wpbrewer.com/support\n"
+"POT-Creation-Date: 2024-01-01 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_TW\n"
+
+#: wpbr-fluentcart-linepay.php
+msgid "LINE Pay for FluentCart requires FluentCart to be installed and activated."
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "LINE Pay"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "使用 LINE Pay 安全付款"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "準備跳轉至 LINE Pay..."
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "商店模式"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "此外掛專為台灣市場設計，僅支援新台幣 (TWD) 付款"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "市場限制"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "正式環境憑證"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "Channel ID"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "請輸入正式環境 Channel ID"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "從 LINE Pay 開發者後台取得"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "Channel Secret"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "請輸入正式環境 Channel Secret"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "測試環境憑證"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "Sandbox Channel ID"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "請輸入測試環境 Channel ID"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "從 LINE Pay Sandbox 取得"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "Sandbox Channel Secret"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "請輸入測試環境 Channel Secret"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "自動請款"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "啟用後將自動完成請款（建議開啟）"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "請輸入 Channel ID 和 Channel Secret"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "LINE Pay 憑證設定成功！"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "無法退款：缺少 LINE Pay 交易編號"
+msgstr ""
+
+#: src/Gateways/LinePay.php
+msgid "退款失敗"
+msgstr ""
+
+#: src/Gateways/Processor.php
+msgid "LINE Pay 僅支援新台幣 (TWD) 付款"
+msgstr ""
+
+#: src/Gateways/Processor.php
+msgid "訂單 #%s"
+msgstr ""
+
+#: src/Gateways/Processor.php
+msgid "正在跳轉至 LINE Pay..."
+msgstr ""
+
+#: src/Gateways/Processor.php
+msgid "付款請求失敗"
+msgstr ""
+
+#: src/Gateways/Confirmations.php
+msgid "無效的交易資訊"
+msgstr ""
+
+#: src/Gateways/Confirmations.php
+msgid "找不到交易記錄"
+msgstr ""
+
+#: src/Gateways/Confirmations.php
+msgid "LINE Pay 付款成功"
+msgstr ""
+
+#: src/Gateways/Confirmations.php
+msgid "付款確認失敗"
+msgstr ""
+
+#: src/Gateways/API/LinePayAPI.php
+msgid "LINE Pay 設定不完整"
+msgstr ""
+
+#: src/Plugin.php
+msgid "付款已取消"
+msgstr ""
+

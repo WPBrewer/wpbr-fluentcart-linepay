@@ -1,0 +1,41 @@
+---
+alwaysApply: true
+---
+
+** Project Description
+LINE Pay for FluentCart is a payment gateway for FluentCart that integrate LINE Pay payment with FluentCart.
+
+
+** Features
+ - one time payment
+ - admin setting
+ - sandbox mode
+ - Support Taiwan only
+ - refund (including partial refund)
+ - transaction logging
+
+
+** Coding convension
+ - using composer to load class
+
+** folder structure
+ - wpbr-fluentcart-linepay
+   - src
+     - Settings
+     - Gateways
+   - assets
+     - js
+     - css
+
+## Docs
+ - LINE Pay API: https://developers-pay.line.me/online
+ - Official fluentcart document: https://dev.fluentcart.com/payment-methods-integration/
+ - Fluentcart payment implementation: https://dev.fluentcart.com/payment-methods-integration/quick-implementation.html
+ - Payment Gateway Settings Fields: https://dev.fluentcart.com/payment-methods-integration/payment_setting_fields
+ - FluentCart payment gateway develope guide: /docs/fluent-cart-custom-gateway-guide.md
+
+
+## Reference
+ - Pay with LINE Pay (woocommerce): https://github.com/WPBrewer/wpbr-linepay-tw
+
+
