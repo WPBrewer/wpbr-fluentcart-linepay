@@ -286,10 +286,9 @@ GPL v2 or later
 
 ## Changelog
 
-### 1.0.0 (2024-01-01)
+### 0.9.1 (2025-11-25)
 - Initial release
 - One-time payment support
-- Full and partial refund support
 - Sandbox and production modes
 - Taiwan market (TWD currency)
 - Traditional Chinese language support
